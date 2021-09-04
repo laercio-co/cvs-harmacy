@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>CVS Pharmacy</title>
+</head>
+
+<body>
+  <div class="splash">
+    <img src="img/logo.png" alt="CVS Pharmacy logo" class="logo">
+  </div>
+
+  <div class="content">
+    <header class="app-header">
+      <div class="container">
+        <img class="logo" src="img/logo.png" alt="CVS Pharmacy logo" />
+        <input class="search" type="text" placeholder="Search..." />
+      </div>
+    </header>
+
+    <div class="subheader">
+      <div>
+        <p>Now delivering Rx + more</p>
+        <p>Find out now <i class="fa fa-chevron-right"></i></p>
+      </div>
+      <img src="img/delivery.png" alt="Delivery" />
+    </div>
+
+    <div class="grid container">
+      <div class="item">
+        <h4>Pharmacy</h4>
+        <p class="desc">2Rxs ready for refill</p>
+        <img src="img/medicine.png" alt="Medicine" />
+      </div>
+      <div class="item">
+        <h4>Deals & Rewards</h4>
+        <p class="desc">2 TraversyCare offers expiring</p>
+        <img src="img/medal.png" alt="Medal" />
+      </div>
+      <div class="item">
+        <h4>SecondClinic</h4>
+        <p class="desc"></p>
+        <img src="img/nurse.png" alt="Nurse" />
+      </div>
+      <div class="item">
+        <h4>Shop</h4>
+        <p class="desc">Free shipping on orders $25+</p>
+        <img src="img/shop.png" alt="Shop" />
+      </div>
+      <div class="item">
+        <h4>Photo</h4>
+        <p class="desc"></p>
+        <img src="img/photo.png" alt="Photo" />
+      </div>
+      <div class="item">
+        <h4>Weekly Ad</h4>
+        <p class="desc">View your weekly ad</p>
+        <img src="img/newspaper.png" alt="Newspaper" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <ul>
+      <li>
+        <i class="fa fa-heart"></i>
+        Home
+      </li>
+      <li>
+        <i class="fa fa-barcode"></i>
+        Show Card
+      </li>
+      <li>
+        <i class="fa fa-user"></i>
+        Account
+      </li>
+      <li>
+        <i class="fa fa-map-marker"></i>
+        Find Store
+      </li>
+    </ul>
+  </footer>
+
+  <script>
+    setTimeout(
+      function () {
+        document.querySelector('.splash').classList.add('fade');
+      }, 2000);
+  </script>
+</body>
+
+</html>
